@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geometry-tanmay"        # change to a unique name on PyPI later
+version = "0.1.0"
+description = "Beginner-friendly 2D geometry utilities (Point, Vector, Line, reflections, midpoints, etc.)"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Tanmay Madaan" }]
+keywords = ["geometry", "vectors", "lines", "math"]
+
